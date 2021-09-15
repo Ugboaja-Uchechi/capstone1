@@ -6,6 +6,7 @@ body {
   overflow-x: hidden;
   margin-left: 0;
   margin-right: 0;
+  margin-top: 0;
 }
 
 .navigation-links {
@@ -28,8 +29,52 @@ body {
   display: none;
 }
 
+/*  DOM manipulations */
+.mobile-header-nav-links {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  margin-top: 0;
+  height: 100%;
+  z-index: 10;
+  flex-direction: column;
+  padding-top: 5rem;
+  line-height: 5rem;
+  background: grey;
+}
+
+header {
+  width: 100vw;
+}
+
+.menu {
+  padding-left: 2rem;
+  background-color: #d3d1d1;
+  margin-top: 0;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.close {
+  margin-left: 14rem;
+  width: 20px;
+  height: 20px;
+}
+
+.mobile-header-nav-links li {
+  list-style-type: none;
+}
+
+.mobile-header-nav-links li a {
+  text-decoration: none;
+  font-size: 24px;
+  color: #272a31;
+}
 
 .mobile-p {
+  margin-top: 0;
   text-align: center;
   color: #f42639;
   padding-top: 4rem;
