@@ -6,14 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Game of Thrones</title>
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="script.js"></script>
 </head>
 <body>
   <header>
     <nav class="top-container flex top-content">
       <ul class="top-links">
         <li>
-          <a href="#"><i class="fa fa-facebook font-icon"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
         </li>
         <li>
           <a href="#"><i class="fa fa-twitter font-icon"></i></a>
@@ -30,10 +30,10 @@
       </ul>
     </nav>
     <div class="program-container flex content">
-      <img class="logo" src="images/G.O.T-logo.png" alt="game of thrones">
+    <a href="about.html"><img class="logo" src="images/G.O.T-logo.png" alt="game of thrones"></a>
       <ul class="navigation-links">
         <li>
-          <a href="">About</a>
+          <a href="about.html">About</a>
         </li>
         <li>
           <a href="#">Program</a>
@@ -42,19 +42,42 @@
           <a href="#">Join</a>
         </li>
         <li>
-          <a href="#">Get Tickets</a>
+          <a href="#" class="tickets">Get Tickets</a>
         </li>
       </ul>
     </div>
+    <ul class="mobile-header-nav-links">
+      <li>
+        <i class="fa fa-times close"></i>
+      </li>
+      <li>
+        <a href="about.html">About</a>
+      </li>
+      <li>
+        <a href="#">Program</a>
+      </li>
+      <li>
+        <a href="#">Join</a>
+      </li>
+      <li>
+        <a href="#" class="tickets">Get Tickets</a>
+      </li>
+    </ul>
+    <div class="menu">
+      <i class="fa fa-bars"></i>
+    </div>
   </header>
+
   <section class="main">
+    <div class="main-background">
 
-      <p class="welcome-text">"Welcome Game of Thrones Fans!!"</p>
-      <h1>Game of Thrones <br> Fans Summit <br> 2021</h1>
-      <p class="explanation">A joyful celebration about the now concluded and successful Game of Thrones series, released by H.B.O. The show's first episode premiered on and the last episode aired . It has been considered as the greatest series by a lot of people.</p>
-      <h2>2021.09.12(Sun) ~ 2021.09.18(Sat)</h2>
-      <h3>@ Central park, NewYork, America and London.</h3>
-
+    </div>
+    <p class="welcome-text">"Welcome Game of Thrones Fans!!"</p>
+    <h1>Game of Thrones <br> Fans Summit <br> 2021</h1>
+    <p class="mobile-explanation">A joyful celebration about the now concluded and successful Game of Thrones series, released by H.B.O.</p>
+    <p class="explanation">A joyful celebration about the now concluded and successful Game of Thrones series, released by H.B.O. The show's first episode premiered on and the last episode aired . It has been considered as the greatest series by a lot of people.</p>
+    <h2>2021.09.12(Sun) ~ 2021.09.18(Sat)</h2>
+    <h3>@ Central park, NewYork, America and London.</h3>
   </section>
 
   <section class="featured-program">
@@ -82,6 +105,35 @@
       </li>
     </ul>
     <h4><a href="#">See the whole program</a></h4>
+  </section>
+
+  <section class="featured-display">
+    <h2>Main Program</h2>
+    <ul class="program">
+      <li class="program-display">
+        <i class="fas fa-user-alt"></i>
+        <h3 class="program-h3">Cast</h3>
+        <p class="program-p1">Meet all your favorite actors and the crew that featured in all parts of the movie.</p>
+      </li>
+      <li class="program-display">
+        <i class="far fa-eye"></i>
+        <h3>Exhibition</h3>
+        <p>See all the real props and materials used for the movie and how they were created by the crew</p>
+      </li>
+      <li class="program-display">
+        <i class="far fa-comment-dots"></i>
+        <h3 class="program-h3">Forum</h3>
+        <p class="program-p">Have the time to speak to the writers and crew about your favorite scene or scenes that confused you</p>
+      </li>
+      <li class="program-display">
+        <i class="fas fa-tshirt"></i>
+        <h3 class="program-h3">Costume</h3>
+        <p>Try creating your own props and storyline and dress up as your favorite actors.</p>
+      </li>
+    </ul>
+    <h4><a href="#">Game Of Thrones
+      Fans Summit
+      2021</a></h4>
   </section>
 
   <section class="featured-speakers">
@@ -131,6 +183,7 @@
       </li>
     </ul>
   </section>
+  
   <section class="partner">
     <h2>Partner</h2>
     <div class="empty"></div>
@@ -147,5 +200,6 @@
       <p>2021 NewYork convention center. Some rights reserved.</p>
     </div>
   </footer>
+  <script src="https://kit.fontawesome.com/1dbe059ed4.js" crossorigin="anonymous"></script>
 </body>
 </html>
