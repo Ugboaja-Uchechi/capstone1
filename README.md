@@ -21,6 +21,18 @@ To get a local copy up and running follow these simple example steps.
 - Clone this repo to your local machine
 - Open the `index.html` in your browser
 
+# Built With
+
+HTML
+
+CSS
+
+JAVASCRIPT
+
+# Demo Link
+
+ [Link to My Capstone project](https://ugboaja-uchechi.github.io/capstone1/)
+
 ## Author(s)
 Ugboaja Uchechi
 
