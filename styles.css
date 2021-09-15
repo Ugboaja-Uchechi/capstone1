@@ -5,7 +5,6 @@
   src: url('fonts/cocogoose-pro-trial.ttf');
 } */
 
-
 body {
   font-family: 'lato', sans-serif;
   height: 100vh;
@@ -26,7 +25,7 @@ body {
   display: none;
 }
 
-.logo{
+.logo {
   display: none;
 }
 
@@ -90,7 +89,6 @@ header {
   color: #272a31;
 }
 
-
 .main-background {
   position: absolute;
   width: 100vw;
@@ -134,6 +132,7 @@ header {
   margin-right: 1rem;
   color: #817878;
 }
+
 .main h2 {
   font-size: 19px;
   color: #545454;
@@ -229,13 +228,12 @@ header {
   font-size: 18px;
 }
 
-
-
 .featured-speakers {
   margin-top: 0;
   margin-bottom: 0;
   width: 100vw;
   border-bottom: 1px solid #d3d3d3;
+
   /* padding-bottom: 2rem; */
   background-color: #fff;
 }
@@ -275,7 +273,8 @@ header {
     display: none;
   }
 
-  .menu, .close {
+  .menu,
+  .close {
     display: none !important;
   }
 
@@ -289,67 +288,71 @@ header {
 
   header {
     position: fixed;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     width: 100%;
     z-index: 3;
   }
-  
+
   .top-container {
     align-items: center;
     background-color: rgb(67, 67, 67);
   }
-  
+
   .top-links {
     display: flex;
     padding-right: 2.5rem;
   }
-  
+
   .top-links li {
     list-style-type: none;
   }
-  
+
   .font-icon {
     color: white;
   }
-  
+
   .top-links li a {
     padding: 0 1.5rem;
     color: white;
     text-decoration: none;
   }
-  
+
   .top-content {
     justify-content: flex-end;
   }
-  
+
   .logo {
     display: block;
     width: 100px;
     height: 55px;
   }
-  
+
   .navigation-links li {
     list-style-type: none;
   }
-  
+
   .navigation-links li a {
     text-decoration: none;
     color: #817878;
     padding: 0 1.5rem;
     font-size: 19px;
   }
-  
+
+  .featured-program h4 > a {
+    color: white;
+  }
+
   .navigation-links li a:hover {
     color: #ec4252;
   }
-  
+
   .program-container .navigation-links .tickets {
     border: 4px solid #f42639;
     padding-top: 0.8rem;
     padding-bottom: 0.8rem;
   }
-  
+
   .program-container {
     height: 3vh;
     margin: 0;
@@ -358,19 +361,19 @@ header {
     background-color: white;
     border-bottom: 1px solid #d3d3d3;
   }
-  
+
   .flex {
     display: flex;
   }
-  
+
   .content {
     justify-content: space-evenly;
   }
-  
+
   .navigation-links {
     display: flex;
   }
-  
+
   .main {
     margin-bottom: 0;
     margin-top: 0;
@@ -379,29 +382,32 @@ header {
     border-bottom: 1px solid #d3d3d3;
     background-color: #fff;
   }
-  
+
   /* .main div {
     height: 100vh;
     background-image: url(images/G.O.T.jpg);
-  
+
   } */
-  
-  .welcome-text, .main h1, .main h2, .main h3 {
+
+  .welcome-text,
+  .main h1,
+  .main h2,
+  .main h3 {
     padding-left: 8.5rem;
   }
-  
+
   .welcome-text {
     padding-top: 8rem;
     margin-bottom: 0;
     font-size: 36px;
   }
-  
+
   .main h1 {
     margin-top: 0.5rem;
     font-size: 40px;
     text-transform: capitalize;
   }
-  
+
   .explanation {
     display: block;
     width: 50%;
@@ -413,21 +419,21 @@ header {
     padding-bottom: 10px;
     margin-left: 8.5rem;
     padding-left: 20px;
-    padding-right: 20px;;
+    padding-right: 20px;
   }
-  
+
   .main h2 {
     font-size: 26px;
     color: #272a31;
     font-weight: 900;
   }
-  
+
   .main h3 {
     font-size: 20px;
     color: #454343;
     font-weight: 900;
   }
-  
+
   .featured-program {
     display: block;
     margin-top: 0;
@@ -436,7 +442,7 @@ header {
     border-bottom: 1px solid #d3d3d3;
     background-color: rgb(39, 42, 49);
   }
-  
+
   .program-list {
     display: grid;
     height: 250px;
@@ -445,7 +451,7 @@ header {
     grid-template-columns: auto auto auto auto;
     grid-gap: 10px;
   }
-  
+
   .program-list li {
     text-align: center;
     list-style-type: none;
@@ -458,70 +464,73 @@ header {
     color: #fff;
     font-size: 30px;
   }
-  
+
   .program-list li h3 {
     font-size: 22px;
     font-weight: 700;
     color: #ec4252;
   }
-  
-  .program-list li h3, .program-list li p {
+
+  .end p {
+    font-size: 19px;
+    padding-left: 5.5rem;
+    padding-top: 3rem;
+  }
+
+  .program-list li h3,
+  .program-list li p {
     text-align: center;
   }
-  
+
   .program-list li p {
     color: white;
     font-weight: 700;
   }
-  
+
   .featured-speakers {
     margin-top: 0;
     margin-bottom: 0;
     width: 100vw;
     border-bottom: 1px solid #d3d3d3;
     padding-bottom: 2rem;
-    background-color: #eeeeee;
+    background-color: #eee;
   }
-  
+
   .featured-program h2 {
     margin-top: 0;
     text-align: center;
     padding-top: 2rem;
     color: white;
   }
-  
+
   .featured-program h4 {
     text-align: center;
     text-transform: uppercase;
     padding-top: 0.5rem;
     padding-bottom: 4rem;
   }
-  
-  .featured-program h4 > a {
-    color: white;
-  }
-  
+
   .checkers {
     position: relative;
     bottom: 2.7rem;
     width: 80px;
     height: 70px;
   }
-  
+
   .featured-speakers h2 {
     margin-top: 0;
     text-align: center;
     padding-top: 1rem;
     padding-bottom: 2.5rem;
   }
-  
+
   .featured-image {
     position: relative;
     right: 4rem;
     width: 120px;
     height: 100px;
   }
-  
+
   .speakers {
     display: grid;
     margin-left: 6rem;
@@ -535,16 +544,16 @@ header {
   .speakers li {
     padding-bottom: 0;
   }
-  
+
   .p-colour {
     color: #ec4252;
   }
-  
+
   .p-spacing {
     line-height: 1.3rem;
     word-spacing: 0.3rem;
   }
-  
+
   .partner {
     display: block;
     margin-top: 0;
@@ -554,7 +563,7 @@ header {
     background-color: #272a31;
     height: 45vh;
   }
-  
+
   .partner h2 {
     margin-top: 0;
     text-align: center;
@@ -563,7 +572,7 @@ header {
     letter-spacing: 0.2rem;
     font-size: 26px;
   }
-  
+
   .partner .empty {
     width: 50px;
     background-color: #ec4252;
@@ -571,7 +580,7 @@ header {
     margin-bottom: 2rem;
     margin-left: 46vw;
   }
-  
+
   .partner .partner-img {
     display: grid;
     align-content: space-around;
@@ -579,16 +588,16 @@ header {
     justify-items: center;
     padding-top: 2rem;
   }
-  
+
   .partner div img {
     height: 100px;
     width: 190px;
   }
-  
+
   .display {
     display: flex;
   }
-  
+
   .end {
     display: flex;
     margin-top: 0;
@@ -596,19 +605,13 @@ header {
     width: 100vw;
     border-bottom: 1px solid #d3d3d3;
     height: 25vh;
-    background-color: #eeeeee;
+    background-color: #eee;
   }
-  
+
   .end-logo {
     width: 180px;
     height: 120px;
     padding-top: 1.3rem;
     padding-left: 4rem;
-  }
-  
-  .end p {
-    font-size: 19px;
-    padding-left: 5.5rem;
-    padding-top: 3rem;
   }
 }

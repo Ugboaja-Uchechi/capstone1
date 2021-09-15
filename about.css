@@ -147,10 +147,15 @@ header {
   margin: 2rem 1rem;
 }
 
+.partner-img img {
+  width: 90%;
+  height: 80px;
+}
+
 .past-summits div img {
   width: 95%;
   height: 240px;
-} 
+}
 
 .right {
   margin-top: 1.5rem;
@@ -162,7 +167,7 @@ header {
 }
 
 .end {
-  height: 33vh; 
+  height: 33vh;
   width: 100vw;
 }
 
@@ -209,17 +214,13 @@ header {
   justify-items: center;
 }
 
-.partner-img img {
-  width: 90%;
-  height: 80px;
-}
-
 @media screen and (min-width: 768px) {
   .mobile-header-nav-links {
     display: none;
   }
 
-  .menu, .close {
+  .menu,
+  .close {
     display: none !important;
   }
 
@@ -241,67 +242,67 @@ header {
 
   header {
     position: fixed;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     width: 100%;
     z-index: 3;
   }
-  
+
   .top-container {
     align-items: center;
     background-color: rgb(67, 67, 67);
   }
-  
+
   .top-links {
     display: flex;
     padding-right: 2.5rem;
   }
-  
+
   .top-links li {
     list-style-type: none;
   }
-  
+
   .font-icon {
     color: white;
   }
-  
+
   .top-links li a {
     padding: 0 1.5rem;
     color: white;
     text-decoration: none;
   }
-  
+
   .top-content {
     justify-content: flex-end;
   }
-  
+
   .logo {
     display: block;
     width: 100px;
     height: 55px;
   }
-  
+
   .navigation-links li {
     list-style-type: none;
   }
-  
+
   .navigation-links li a {
     text-decoration: none;
     color: #817878;
     padding: 0 1.5rem;
     font-size: 19px;
   }
-  
+
   .navigation-links li a:hover {
     color: #ec4252;
   }
-  
+
   .program-container .navigation-links .tickets {
     border: 4px solid #f42639;
     padding-top: 0.8rem;
     padding-bottom: 0.8rem;
   }
-  
+
   .program-container {
     padding: 20px;
     height: 3vh;
@@ -309,19 +310,19 @@ header {
     align-items: center;
     background-color: white;
   }
-  
+
   .flex {
     display: flex;
   }
-  
+
   .content {
     justify-content: space-evenly;
   }
-  
+
   .navigation-links {
     display: flex;
   }
-  
+
   .about-main {
     border-bottom: 1px solid #d3d3d3;
     text-align: center;
@@ -329,11 +330,11 @@ header {
     width: 100vw;
     background-color: #f4f4f4;
   }
-  
+
   h1 {
     padding-top: 6.5rem;
   }
-  
+
   .about-main .text {
     display: block;
     margin-left: 8rem;
@@ -344,83 +345,83 @@ header {
     font-size: 14px;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-    border: 2px solid #d3d3d3
+    border: 2px solid #d3d3d3;
   }
-  
+
   .mail {
     color: #5a5656;
     font-size: 17px;
     margin-top: 0;
   }
-  
+
   h5 {
     font-size: 16px;
     margin-bottom: 0.3rem;
   }
-  
+
   .logo-winner {
     height: 70vh;
     width: 100vw;
     text-align: center;
     border-bottom: 1px solid #d3d3d3;
   }
-  
+
   .logo-winner h2 {
     padding-top: 2.2rem;
     padding-bottom: 1rem;
     color: #222020;
     margin: 0;
   }
-  
+
   .logo-winner .desktop-logo-winner {
     display: block;
     color: #5a5656;
     line-height: 1.5rem;
   }
-  
+
   .best-logo {
     margin-top: 2rem;
     width: 300px;
     height: 190px;
     padding: 0.5rem 4rem;
-    border: 2px solid #5a5656;;
+    border: 2px solid #5a5656;
   }
-  
+
   .display {
     display: flex;
   }
-  
+
   .end {
     width: 100vw;
     height: 25vh;
     background-color: #272a31;
   }
-  
+
   .end-logo {
     width: 180px;
     height: 120px;
     padding-top: 1.3rem;
     padding-left: 4rem;
   }
-  
+
   .end p {
     color: white;
     font-size: 19px;
     padding-left: 5.5rem;
     padding-top: 3rem;
   }
-  
+
   .past-summits {
     width: 100vw;
     height: 55vh;
     text-align: center;
     border-bottom: 1px solid #d3d3d3;
   }
-  
+
   .past-summits p {
     color: rgb(116 116 116);
   }
-  
+
   .past-summits div {
     display: grid;
     grid-template-columns: auto auto;
@@ -429,20 +430,19 @@ header {
     justify-content: center;
     padding-top: 3rem;
   }
-  
+
   .past-summits div img {
     width: 330px;
     height: 200px;
   }
-  
+
   .right {
     margin-top: 0;
     margin-right: 4rem;
     margin-bottom: 0;
   }
-  
+
   .left {
     margin-left: 4rem;
   }
-
 }
