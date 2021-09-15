@@ -33,6 +33,11 @@ JAVASCRIPT
 
  [Link to My Capstone project](https://ugboaja-uchechi.github.io/capstone1/)
 
+# Screenshots
+
+![image](https://user-images.githubusercontent.com/74814780/133474235-e991d48e-25ea-4a3f-80d2-776d08037441.png)
+
+
 ## Author(s)
 Ugboaja Uchechi
 
