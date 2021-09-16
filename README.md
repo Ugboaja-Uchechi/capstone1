@@ -34,6 +34,8 @@ JAVASCRIPT
 ## Author(s)
 Ugboaja Uchechi
 
+GitHub: https://github.com/Ugboaja-Uchechi
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are always welcome!
