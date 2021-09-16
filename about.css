@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+  font-family: 'lato', sans-serif;
+  height: 100vh;
+  overflow-x: hidden;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+}
+
+.navigation-links {
+  display: none;
+}
+
+.top-container {
+  display: none;
+}
+
+.logo {
+  display: none;
+}
+
+.text {
+  display: none;
+}
+
+.desktop-logo-winner {
+  display: none;
+}
+
+/*  DOM manipulations */
+.mobile-header-nav-links {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  margin-top: 0;
+  height: 100%;
+  z-index: 10;
+  flex-direction: column;
+  padding-top: 5rem;
+  line-height: 5rem;
+  background: grey;
+}
+
+header {
+  width: 100vw;
+}
+
+.menu {
+  padding-left: 2rem;
+  background-color: #d3d1d1;
+  margin-top: 0;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.close {
+  margin-left: 14rem;
+  width: 20px;
+  height: 20px;
+}
+
+.mobile-header-nav-links li {
+  list-style-type: none;
+}
+
+.mobile-header-nav-links li a {
+  text-decoration: none;
+  font-size: 24px;
+  color: #272a31;
+}
+
+.mobile-p {
+  margin-top: 0;
+  text-align: center;
+  color: #f42639;
+  padding-top: 4rem;
+}
+
+.about-main {
+  text-align: center;
+  background-color: #ececec;
+  border-bottom: 1px solid #d3d3d3;
+  height: 75vh;
+  width: 100vw;
+}
+
+.about-main h1 {
+  text-align: center;
+  color: #f42639;
+  font-size: 28px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.mobile-explanation {
+  display: block;
+  line-height: 1.5rem;
+  background-color: #fff;
+  color: #5a5656;
+  border: 2px solid #d3d3d3;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 2rem;
+}
+
+.mail {
+  padding-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.logo-winner {
+  border-bottom: 1px solid #d3d3d3;
+  text-align: center;
+  height: 50vh;
+  width: 100vw;
+}
+
+.logo-winner h2 {
+  color: #393939;
+  padding-top: 2rem;
+  margin: 0 1rem;
+}
+
+.best-logo {
+  width: 200px;
+  height: 100px;
+  border: 1px solid #d3d3d3;
+  padding: 0.8rem 2rem;
+}
+
+.mobile-logo-winner {
+  color: #5a5656;
+}
+
+.past-summits {
+  width: 100vw;
+  text-align: center;
+}
+
+.past-summits h2 {
+  color: #5a5656;
+  margin: 2rem 1rem;
+}
+
+.partner-img img {
+  width: 90%;
+  height: 80px;
+}
+
+.past-summits div img {
+  width: 95%;
+  height: 240px;
+}
+
+.right {
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.display {
+  display: flex;
+}
+
+.end {
+  height: 33vh;
+  width: 100vw;
+}
+
+.end-logo {
+  width: 100px;
+  height: 100px;
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+
+.end p {
+  padding-top: 2.3rem;
+  padding-left: 2rem;
+}
+
+.partner {
+  margin-top: 0;
+  margin-bottom: 0;
+  border-bottom: 1px solid #d3d3d3;
+  background-color: #272a31;
+  height: 40vh;
+}
+
+.partner h2 {
+  margin-top: 0;
+  text-align: center;
+  color: white;
+  padding-top: 2.5rem;
+  letter-spacing: 0.2rem;
+  font-size: 26px;
+}
+
+.partner .empty {
+  width: 50px;
+  background-color: #ec4252;
+  height: 2px;
+  margin-bottom: 2rem;
+  margin-left: 40vw;
+}
+
+.partner .partner-img {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-header-nav-links {
+    display: none;
+  }
+
+  .menu,
+  .close {
+    display: none !important;
+  }
+
+  .mobile-explanation {
+    display: none;
+  }
+
+  .mobile-p {
+    display: none;
+  }
+
+  .mobile-logo-winner {
+    display: none;
+  }
+
+  .partner {
+    display: none;
+  }
+
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+  }
+
+  .top-container {
+    align-items: center;
+    background-color: rgb(67, 67, 67);
+  }
+
+  .top-links {
+    display: flex;
+    padding-right: 2.5rem;
+  }
+
+  .top-links li {
+    list-style-type: none;
+  }
+
+  .font-icon {
+    color: white;
+  }
+
+  .top-links li a {
+    padding: 0 1.5rem;
+    color: white;
+    text-decoration: none;
+  }
+
+  .top-content {
+    justify-content: flex-end;
+  }
+
+  .logo {
+    display: block;
+    width: 100px;
+    height: 55px;
+  }
+
+  .navigation-links li {
+    list-style-type: none;
+  }
+
+  .navigation-links li a {
+    text-decoration: none;
+    color: #817878;
+    padding: 0 1.5rem;
+    font-size: 19px;
+  }
+
+  .navigation-links li a:hover {
+    color: #ec4252;
+  }
+
+  .program-container .navigation-links .tickets {
+    border: 4px solid #f42639;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+  }
+
+  .program-container {
+    padding: 20px;
+    height: 3vh;
+    margin: 0;
+    align-items: center;
+    background-color: white;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .content {
+    justify-content: space-evenly;
+  }
+
+  .navigation-links {
+    display: flex;
+  }
+
+  .about-main {
+    border-bottom: 1px solid #d3d3d3;
+    text-align: center;
+    height: 80vh;
+    width: 100vw;
+    background-color: #f4f4f4;
+  }
+
+  h1 {
+    padding-top: 6.5rem;
+  }
+
+  .about-main .text {
+    display: block;
+    margin-left: 8rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    margin-right: 8rem;
+    color: #5a5656;
+    font-size: 14px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border: 2px solid #d3d3d3;
+  }
+
+  .mail {
+    color: #5a5656;
+    font-size: 17px;
+    margin-top: 0;
+  }
+
+  h5 {
+    font-size: 16px;
+    margin-bottom: 0.3rem;
+  }
+
+  .logo-winner {
+    height: 70vh;
+    width: 100vw;
+    text-align: center;
+    border-bottom: 1px solid #d3d3d3;
+  }
+
+  .logo-winner h2 {
+    padding-top: 2.2rem;
+    padding-bottom: 1rem;
+    color: #222020;
+    margin: 0;
+  }
+
+  .logo-winner .desktop-logo-winner {
+    display: block;
+    color: #5a5656;
+    line-height: 1.5rem;
+  }
+
+  .best-logo {
+    margin-top: 2rem;
+    width: 300px;
+    height: 190px;
+    padding: 0.5rem 4rem;
+    border: 2px solid #5a5656;
+  }
+
+  .display {
+    display: flex;
+  }
+
+  .end {
+    width: 100vw;
+    height: 25vh;
+    background-color: #272a31;
+  }
+
+  .end-logo {
+    width: 180px;
+    height: 120px;
+    padding-top: 1.3rem;
+    padding-left: 4rem;
+  }
+
+  .end p {
+    color: white;
+    font-size: 19px;
+    padding-left: 5.5rem;
+    padding-top: 3rem;
+  }
+
+  .past-summits {
+    width: 100vw;
+    height: 55vh;
+    text-align: center;
+    border-bottom: 1px solid #d3d3d3;
+  }
+
+  .past-summits p {
+    color: rgb(116 116 116);
+  }
+
+  .past-summits div {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row-gap: 40px;
+    grid-column-gap: 70px;
+    justify-content: center;
+    padding-top: 3rem;
+  }
+
+  .past-summits div img {
+    width: 330px;
+    height: 200px;
+  }
+
+  .right {
+    margin-top: 0;
+    margin-right: 4rem;
+    margin-bottom: 0;
+  }
+
+  .left {
+    margin-left: 4rem;
+  }
+}
