@@ -67,15 +67,15 @@ const speakers = [
 ];
 
 const singleSpeakerCode = (speaker) => `
- <div class="">
   <li class="speakers-display">
   <img src="${speaker.featuredImage}" alt="checkers" class="checkers">
   <img src="${speaker.mainImage}" alt="${speaker.topic}" class="featured-image">
-  <h3${speaker.topic}</h3>
+  <div class="speaker-flex">
+  <h3>${speaker.topic}</h3>
   <p class="p-colour">${speaker.occupation}</p>
   <p class="p-spacing">${speaker.description}</p>
-  </li>
-  </div>`;
+  </div>
+  </li>`;
 
 const list = document.querySelector('.speakers');
 list.innerHTML = speakers.map((speaker) => singleSpeakerCode(speaker)).join('');
