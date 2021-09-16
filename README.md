@@ -16,8 +16,6 @@ Implemented a logo that leads to the home and about page
 
 To get a local copy up and running follow these simple example steps.
 
-# Usage
-
 - Clone this repo to your local machine
 - Open the `index.html` in your browser
 
